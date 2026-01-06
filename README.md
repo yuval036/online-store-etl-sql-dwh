@@ -20,13 +20,13 @@ Contains Fact and Dimension tables optimized for analytical queries and reportin
 
 ## 🚀 How to Run
 
-1.Install SQL Server Developer Edition
-2.Install SQL Server Management Studio (SSMS)
-3.Create the database and schemas (bronze, silver, gold)
-4.Run the Bronze table creation scripts
-5.Execute the Bronze load stored procedures
-6.Run Silver transformation scripts
-7.Build Gold fact and dimension tables
+1. Install SQL Server Developer Edition
+2. Install SQL Server Management Studio (SSMS)
+3. Create the database and schemas (bronze, silver, gold)
+4. Run the Bronze table creation scripts
+5. Execute the Bronze load stored procedures
+6. Run Silver transformation scripts
+7. Build Gold fact and dimension tables
 
 ## 📌 Project Purpose
 This project was built as a portfolio project to demonstrate practical skills in:
