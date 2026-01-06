@@ -9,13 +9,13 @@ The goal of the project is to ingest raw CRM and ERP source data, clean and stan
 ## 🏗 Architecture
 The project is built using the Medallion Architecture:
 
-*Bronze Layer (Raw / Staging)*
+### Bronze Layer (Raw / Staging)
 Stores raw data ingested directly from CSV source files without transformations.
 
-Silver Layer (Clean / Refined)
+### Silver Layer (Clean / Refined)
 Applies data cleansing, deduplication, type casting, and business rules.
 
-Gold Layer (Analytics / Data Warehouse)
+### Gold Layer (Analytics / Data Warehouse)
 Contains Fact and Dimension tables optimized for analytical queries and reporting.
 
 ## 🚀 How to Run
@@ -28,4 +28,10 @@ Contains Fact and Dimension tables optimized for analytical queries and reportin
 6.Run Silver transformation scripts
 7.Build Gold fact and dimension tables
 
+## 📌 Project Purpose
+This project was built as a portfolio project to demonstrate practical skills in:
+Data Engineering
+ETL development
+SQL-based Data Warehousing
+Real-world data modeling patterns
 
